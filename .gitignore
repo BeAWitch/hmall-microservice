@@ -1,1 +1,4 @@
 /.idea/
+/hm-common/target/
+/hm-service/target/
+/logs/
