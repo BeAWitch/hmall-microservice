@@ -1,9 +1,0 @@
-server:
-  port: 8081
-hm:
-  swagger:
-    title: 购物车商品接口文档
-    description: 购物车商品接口文档
-    package: com.hmall.item.controller
-  db:
-    database: hm-item
