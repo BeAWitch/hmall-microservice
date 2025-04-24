@@ -1,0 +1,1 @@
+2025/04/24 07:27:00 [error] 15600#28700: *48 CreateFile() "D:\study\dev\hmall-microservice\hmall-nginx/html/hmall-portal/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:18080"

@@ -3,6 +3,8 @@ server:
 feign:
   okhttp:
     enabled: true # 开启OKHttp连接池支持
+  sentinel:
+    enabled: true
 hm:
   swagger:
     title: 购物车服务接口文档
@@ -10,3 +12,9 @@ hm:
     package: com.hmall.cart.controller
   db:
     database: hm-cart
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8090
+      http-method-specify: true # 是否设置请求方式作为资源名称

@@ -47,6 +47,7 @@ public class DynamicRouteLoader {
                     }
                 });
         // 3. 第一次读取到配置，更新路由表
+        updateConfigInfo(configInfo);
     }
 
     public void updateConfigInfo(String configInfo) {

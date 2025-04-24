@@ -4,6 +4,9 @@
     <content url="file://$MODULE_DIR$" dumb="true">
       <excludeFolder url="file://$MODULE_DIR$/logs/cart-service" />
       <excludeFolder url="file://$MODULE_DIR$/logs/item-service" />
+      <excludeFolder url="file://$MODULE_DIR$/logs/gateway" />
+      <excludeFolder url="file://$MODULE_DIR$/logs/trade-service" />
+      <excludeFolder url="file://$MODULE_DIR$/logs/user-service" />
     </content>
   </component>
 </module>
